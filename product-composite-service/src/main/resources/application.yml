@@ -1,0 +1,22 @@
+server:
+   port: 8084
+   error:
+      include-message: always
+      
+
+app:
+   product-service:
+      host: localhost
+      port: 8081
+   recommendation-service:
+      host: localhost
+      port: 8083
+   review-service:
+      host: localhost
+      port: 8082      
+
+
+logging:
+   level:
+      root: INFO
+      dev.jeffersonfreitas: DEBUG
